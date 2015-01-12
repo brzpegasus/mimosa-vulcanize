@@ -1,9 +1,9 @@
 {
   "name": "mimosa-vulcanize",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "homepage": "https://github.com/brzpegasus/mimosa-vulcanize",
   "author": "Estelle DeBlois",
-  "description": "Integrates Polymer's vulcanize tool with Mimosa's build workflow",
+  "description": "A module that integrates Polymer's vulcanize with Mimosa's build workflow",
   "contributors": [
     {
       "name": "Estelle DeBlois",
@@ -23,7 +23,7 @@
   ],
   "main": "./src",
   "dependencies": {
-    "vulcanize": "^0.7.5"
+    "vulcanize": "0.7.5"
   },
   "license": "MIT",
   "engines": {
