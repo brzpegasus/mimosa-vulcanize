@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git@github.com:Polymer/vulcanize.git"
+    "url": "https://github.com/brzpegasus/mimosa-vulcanize.git"
   },
   "keywords": [
     "mimosa",
