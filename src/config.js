@@ -1,8 +1,5 @@
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
-
 exports.defaults = function() {
   return {
     vulcanize: {
@@ -12,11 +9,6 @@ exports.defaults = function() {
       csp: true
     }
   };
-};
-
-exports.placeholder = function() {
-  var file = path.join(__dirname, 'placeholder.txt');
-  return fs.readFileSync(file, { encoding: 'utf8' });
 };
 
 exports.validate = function(config, validators) {
